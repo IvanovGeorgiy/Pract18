@@ -6,7 +6,7 @@ public class Main {
 
         ExHandler t = new ExHandler();
         t.printMessage(null);
-        t.printMessage("normal key");
+        t.printMessage("key");
 
         ExHandler2 t2 = new ExHandler2();
         t2.getKey();

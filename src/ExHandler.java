@@ -1,7 +1,7 @@
 public class ExHandler {
     public String getDetails(String key){
         if (key == null){
-            throw new NullPointerException("null key in getDetails");
+            throw new NullPointerException("null key");
         }
         return "data for " + key;
     }
@@ -9,7 +9,7 @@ public class ExHandler {
         try {
             System.out.println(getDetails(key));
         } catch (Exception e){
-            System.out.println("null key in getDetails, need in new key");
+            System.out.println("null key22");
         }
     }
 }

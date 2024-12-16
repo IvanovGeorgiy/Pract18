@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ExHandler2 {
     public String getDetails(String key) {
         if (Objects.equals(key, "")){
-            throw new NullPointerException("key set empty");
+            throw new NullPointerException("empty key");
         }
         return "data for " + key;
     }
@@ -17,7 +17,7 @@ public class ExHandler2 {
         try{
             printDetails(key);
         } catch (Exception e){
-            System.out.println("key set empty");
+            System.out.println("empty key");
         }
     }
 }
